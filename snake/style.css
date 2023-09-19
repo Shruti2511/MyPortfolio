@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background: url("bg.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 100px;
+}
+
+#scoreBox{
+    position: absolute;
+    top: 5vh;
+    right: 25vw;
+    font-size: 5vh;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-stretch:extra-expanded;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#hiscoreBox{
+    position: absolute;
+    top: 11vh;
+    right: 22vw;
+    font-size: 5vh;
+    font-weight: bold;
+    font-stretch:extra-expanded;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#instructions{
+    position: absolute;
+    bottom: 5vh;
+    right: 15vw;
+    font-size: 5vh;
+    color: rgb(5, 91, 116);
+    border: black;
+    font-weight: bold;
+    font-stretch:extra-expanded;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#board{
+    background: linear-gradient(rgb(109, 215, 232), rgb(245, 245, 239));
+    width: 80vmin;
+    height: 80vmin;
+    border: 3px solid black;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.head{
+    background: linear-gradient(purple, black);
+    border: .25vmin solid black;
+    border-radius: 9px;
+}
+
+.snake{
+    background: linear-gradient(red, purple);
+    border: .25vmin solid black;
+    border-radius: 12px;
+}
+
+.food{
+    background-color: yellow;
+    border-radius: 20px;
+}

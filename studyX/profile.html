@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+   <header class="header">
+
+      <section class="flex">
+
+         <a href="index.html" class="logo"><i class="fas fa-wand-magic-sparkles fa-fade"></i> TOP NOTCH</a>
+
+         <form action="search.html" method="post" class="search-form">
+            <input type="text" name="search_box" required placeholder="search..." maxlength="50">
+            <button type="submit" class="fas fa-search"></button>
+         </form>
+
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+         </div>
+
+         <div class="profile">
+            <img src="images/student.png" class="image" alt="">
+            <h3 class="name">Rohan</h3>
+            <p class="role">Student</p>
+            <a href="profile.html" class="btn">View profile</a>
+            <div class="flex-btn">
+               <a href="login.html" class="option-btn">Login</a>
+               <a href="register.html" class="option-btn">Register</a>
+            </div>
+         </div>
+
+      </section>
+
+   </header>
+
+   <div class="side-bar">
+
+      <div id="close-btn">
+         <i class="fas fa-times"></i>
+      </div>
+
+      <nav class="navbar">
+         <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+         <a href="courses.html"><i class="fas fa-pen"></i><span>Notes</span></a>
+         <a href="books.html"><i class="fas fa-book"></i><span>Books</span></a>
+         <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+         <a href="counsellors.html"><i class="fas fa-user"></i><span>Counsellors</span></a>
+         <a href="Olympiads.html"><i class="fa fa-brain"></i><span>Olympiad Exams</span></a>
+         <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+      </nav>
+
+   </div>
+
+   <section class="user-profile">
+
+      <h1 class="heading">your profile</h1>
+
+      <div class="info">
+
+         <div class="user">
+            <img src="images/student.png" alt="">
+            <h3>Rahul</h3>
+            <p>Student</p>
+            <p>Stars Earned: 0</p>
+            <a href="update.html" class="inline-btn">update profile</a>
+         </div>
+
+         <div class="box-container">
+
+            <div class="box">
+               <div class="flex">
+                  <i class="fas fa-download"></i>
+                  <div>
+                     <span>14</span>
+                     <p>Downloaded books</p>
+                  </div>
+               </div>
+               <a href="#" class="inline-btn">view downloads</a>
+            </div>
+
+            <div class="box">
+               <div class="flex">
+                  <i class="fas fa-heart"></i>
+                  <div>
+                     <span>33</span>
+                     <p>Liked books</p>
+                  </div>
+               </div>
+               <a href="#" class="inline-btn">view liked</a>
+            </div>
+
+            <div class="box">
+               <div class="flex">
+                  <i class="fas fa-upload"></i>
+                  <div>
+                     <span>0</span>
+                     <p>Books uploaded</p>
+                  </div>
+               </div>
+               <a href="#" class="inline-btn">view uploads</a>
+               <a href="#" class="inline-btn">get started- earn stars on uploading</a>
+            </div>
+
+         </div>
+      </div>
+
+   </section>
+
+
+
+
+   <footer class="footer">
+
+      &copy; copyright @ 2022 by <span>Sudocoders</span> | all rights reserved!
+
+   </footer>
+
+   <script src="js/script.js"></script>
+</body>
+
+</html>
